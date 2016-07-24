@@ -1,0 +1,32 @@
+{
+  "name": "elite-api",
+  "version": "0.0.0",
+  "description": "My awe-inspiring module",
+  "license": "MIT",
+  "repository": "willyb321/elite-api",
+  "author": {
+    "name": "willyb321",
+    "email": "wbwilliam7@gmail.com",
+    "url": "tehsuperwilly.tech"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "nyc": "^6.4.0",
+    "xo": "^0.15.0"
+  }
+}
